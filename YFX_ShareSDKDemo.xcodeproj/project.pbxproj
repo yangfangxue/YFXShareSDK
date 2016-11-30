@@ -15,6 +15,7 @@
 		6A2787FA1DEC1D3D00DD76D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2787F81DEC1D3D00DD76D7 /* LaunchScreen.storyboard */; };
 		6A2788051DEC1D3E00DD76D7 /* YFX_ShareSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2788041DEC1D3E00DD76D7 /* YFX_ShareSDKDemoTests.m */; };
 		6A2788101DEC1D3E00DD76D7 /* YFX_ShareSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A27880F1DEC1D3E00DD76D7 /* YFX_ShareSDKDemoUITests.m */; };
+		6A27881F1DEC1F4100DD76D7 /* YYShareSDKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A27881E1DEC1F4100DD76D7 /* YYShareSDKTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6A27880B1DEC1D3E00DD76D7 /* YFX_ShareSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFX_ShareSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A27880F1DEC1D3E00DD76D7 /* YFX_ShareSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFX_ShareSDKDemoUITests.m; sourceTree = "<group>"; };
 		6A2788111DEC1D3E00DD76D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A27881D1DEC1F4100DD76D7 /* YYShareSDKTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShareSDKTool.h; sourceTree = "<group>"; };
+		6A27881E1DEC1F4100DD76D7 /* YYShareSDKTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShareSDKTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6A2787EE1DEC1D3D00DD76D7 /* AppDelegate.m */,
 				6A2787F01DEC1D3D00DD76D7 /* ViewController.h */,
 				6A2787F11DEC1D3D00DD76D7 /* ViewController.m */,
+				6A27881D1DEC1F4100DD76D7 /* YYShareSDKTool.h */,
+				6A27881E1DEC1F4100DD76D7 /* YYShareSDKTool.m */,
 				6A2787F31DEC1D3D00DD76D7 /* Main.storyboard */,
 				6A2787F61DEC1D3D00DD76D7 /* Assets.xcassets */,
 				6A2787F81DEC1D3D00DD76D7 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A27881F1DEC1F4100DD76D7 /* YYShareSDKTool.m in Sources */,
 				6A2787F21DEC1D3D00DD76D7 /* ViewController.m in Sources */,
 				6A2787EF1DEC1D3D00DD76D7 /* AppDelegate.m in Sources */,
 				6A2787EC1DEC1D3D00DD76D7 /* main.m in Sources */,
